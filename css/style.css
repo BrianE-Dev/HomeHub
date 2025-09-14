@@ -271,3 +271,136 @@ header{
     left: 200px;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.tag{
+  border: 1px solid #90c8ea;
+  height: 34px;
+  width: 223px;
+  font-size: 15px;
+  border-radius: 12px;
+  background-color: #90c8ea;
+  color: rgb(0, 135, 218);
+  margin: 35px 0px;
+}
+.tag p{
+  text-align: center;
+}
+span {
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+text-align: center;
+margin-bottom:150px ;
+}
+.span2 {
+color:  rgb(0, 135, 218);
+}
+.first {
+  place-items: center;
+  text-align: center;
+}
+.tick{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.tick img{
+  height: 30px;
+  margin-top: 12px;
+}
+.small_box{
+border: 1px solid  rgb(0, 135, 218);
+height: 160px;
+width: 360px;
+border-radius: 12px;
+border-width: 1px;
+margin-bottom: 20px;
+padding: 15px;
+}
+.small_box p {
+  width: 430px;
+height: 72px;
+opacity: 1;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+font-family: 'Poppins', sans-serif;
+}
+.section_one {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 90px;
+}
+.dols{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: bold;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  
+}
+.dols img{
+  width: 10px;
+  height: 20px;
+  margin-top:65px ;
+}
+.Free {
+  display: flex;
+  flex-direction: row;
+}
+.Free img {
+  height: 30px;
+  margin-top: 15px;
+}
+.zero {
+  border: 1px solid  rgb(0, 135, 218);
+height: 655px;
+width: 260px;
+border-radius: 12px;
+border-width: 1px;
+margin-top: 100px;
+align-content: center;
+padding: 15px;
+}
+.zerotext{
+  text-align: center;
+}
+.zerotext p {
+  color: rgba(166, 166, 166, 1);
+;
+}
+.ten{
+border: 1px solid  rgb(0, 135, 218);
+height: 755px;
+width: 260px;
+border-radius: 12px;
+border-width: 1px;
+margin-top: 50px;
+align-content: center;
+padding: 15px;
+}
+.tentext{
+  text-align: center;
+}
+.tentext p{
+  color: rgba(166, 166, 166, 1);
+;
+}
+.section_two{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  
+}
+.all{
+  padding-left: 150px;
+  padding-right: 150px;
+}
