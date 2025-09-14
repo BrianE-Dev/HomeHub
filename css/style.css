@@ -14,9 +14,9 @@ body{
     background: linear-gradient(90deg, rgba(232, 248, 255, 1) 0%, rgba(246, 251, 254, 1) 25%,
              rgba(246, 251, 254, 1) 50%, rgba(246, 251, 254, 1) 75%, rgb(217, 242, 253) 100%);
     font-family: "Poppins";
-    /* height: 100vh; */
-    margin: 56px 80px;
-
+    /* margin: 56px 124px; */
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 header{
@@ -28,9 +28,11 @@ header{
     color: #1387EC;
 }
 .nav{
+    margin: 50px 0;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 18%;
 }
 .navbar ul{
     display: flex;
@@ -63,7 +65,7 @@ header{
     width: 240px;
     height: 36px;
     background-color: #ffffff;
-    border: 1px solid #94C6D6;
+    /* border: 1px solid #94C6D6; */
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 0.5px 1px #0091EA80;
     padding: 0px 8px;
@@ -90,10 +92,12 @@ header{
 }
 
 .hero{
-    margin: 70px 0;
+    /* margin: 70px 0; */
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20%;
+    padding-right: 14%;
 }
 /* left side of hero */
 .hbtext{
@@ -109,13 +113,13 @@ header{
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
-
 }
+
 .rev{
-    padding-top: 20px;
+    padding-top: 30px;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 38px;
     letter-spacing: 0%;
     font-style: Bold;
 }
@@ -123,16 +127,19 @@ header{
     color: #0091EA;
     font-weight: 700;
     font-style: Bold;
-    font-size: 34px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 38px;
     letter-spacing: 0%;
 }
 
 .dream{
-    padding-top: 50px;
+    padding-top: 30px;
 
 }
-
+.dream p{
+    font-size: 12px;
+    font-weight: 400;
+}
 
 /****************** Buttons *********************/
 .buttons{
@@ -202,6 +209,7 @@ header{
     width: 102px;
     background: #ffffff;
     border-radius: 15px;
+    font-weight: 400;
 }
 .demo p{
     color: #0091EA;
@@ -209,19 +217,25 @@ header{
 
 
 /************* right side of hero ***************/
+.consult{
+    
+    margin-left: -35px;
+}
 .consult img{
-    width: 400px;
+    position: absolute;
+    /* left: 30px; */
+    /* width: 90%; */
     /* backdrop-filter: blur(991px); */
 }
 .real{
     position: relative;
-    bottom: 380px;
-    left: 20px;
+    top: 10px;
+    right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13px;
-    width: 300px;
+    /* gap: 13px; */
+    width: 310px;
     height: 60px;
     background-color: #FFFFFF;
     border-radius: 12px;
@@ -241,18 +255,18 @@ header{
 
 .spiral{
     position: relative;
-    bottom: 270px;
-    right: 100px;
+    bottom: 170px;
+    left: 400px;
 }
+
 .star1{
     position: relative;
-    bottom: 500px;
-    left: 100px;
+    bottom: 340px;
+    left: 630px;
 }
-.star{
-    width: 2px;
-    height: 5px;
-}
+
 .star2{
     position: relative;
+    bottom: 15px;
+    left: 200px;
 }
