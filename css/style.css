@@ -601,6 +601,9 @@ padding: 15px;
 }
 .spiral_3 img{
   object-fit: none;
+  border-bottom-right-radius: 600px;
+  border-top-right-radius: 600px;
+  width: 161px;
 }
 /****************** SECTION 5 ****************/
 
