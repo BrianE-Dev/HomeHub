@@ -15,13 +15,10 @@ body{
              rgba(246, 251, 254, 1) 50%, rgba(246, 251, 254, 1) 75%, rgb(217, 242, 253) 100%);
     font-family: "Poppins";
     /* margin: 56px 124px; */
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 10px; 
 }
 
-header{
-  
-}
+
 .logo{
     font-family: "Bruno Ace SC";
     font-size: 28px;
@@ -65,7 +62,6 @@ header{
     width: 240px;
     height: 36px;
     background-color: #ffffff;
-    /* border: 1px solid #94C6D6; */
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 0.5px 1px #0091EA80;
     padding: 0px 8px;
@@ -118,17 +114,17 @@ header{
 .rev{
     padding-top: 30px;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 38px;
+    font-size: 30px;
+    line-height: 50px;
     letter-spacing: 0%;
     font-style: Bold;
 }
 .game{
     color: #0091EA;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 26px;
-    line-height: 38px;
+    font-style: Bolder;
+    font-size: 30px;
+    line-height: 50px;
     letter-spacing: 0%;
 }
 
@@ -156,10 +152,10 @@ header{
     top: 13px;
     left: 10px;
     padding: 10px;
-	width: 10px;
-	height: 10px;
+	  width: 10px;
+	  height: 10px;
     transform: skewY(-30deg) scale(0.9);
-	background: #0091EA;
+	  background: #0091EA;
     border-radius: 4px;
     border: 1.8px solid #ffffff;
 }
@@ -271,9 +267,138 @@ header{
     left: 200px;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+/*********************** SECTIION 2 *************************/
+
+.service_cards{
+  padding: 50px 0 0 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 10px;
 }
+.card1 img{
+  width: 100%;
+  object-fit: contain;
+}
+.crd_img{
+  margin: 0 auto;
+  text-align: center;
+}
+.srv p{
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.c_line{
+  margin: 0 0 0 520px;
+}
+
+.card1{
+  padding: 10px;
+  border: 1px solid #0091EA;
+  border-radius: 12px;
+  width: 380px;
+  height: 450px;
+}
+.crd{
+  margin-top: 30px;
+  padding: 0 0 0 4px;
+}
+.card1 h2{
+  font-size: 23px;
+}
+.crd p{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.get{
+  margin: 12px 0;
+  width: 124px;
+  height: 47px;
+  background-color: #0091EA;
+  border: none;
+  border-radius: 12px;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 2px 2px #F5F5F5;
+  color: #ffffff;
+}
+.learn{
+  margin: 12px 0;
+  width: 124px;
+  height: 47px;
+  border: none;
+  border-radius: 12px;
+  gap: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 1px rgb(0, 145, 234, 0.4);
+  color: #0091EA;
+}
+.learn p{
+  font-weight: 500;
+  font-size: 16px;
+}
+.get p{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn{
+  display: flex;
+  gap: 40px;
+
+}
+
+/****************************** SECTION 3  ************************************/
+.srv1{
+  margin-top: 100px;
+  text-align: center;
+}
+.srv1 span{
+  color: #0091EA;
+  font-size: 34px;
+  font-weight: 700;
+}
+.srv1 h2{
+  font-size: 34px;
+  font-weight: 700;
+}
+.cl1{
+  display: flex;
+}
+.cl1_txt{
+  display: flex;
+  justify-content: center;
+}
+.cl1_txt span{
+  font-style: bold;
+  font-size: 34px;
+  font-weight: 700;
+  color: #0091EA;
+}
+.cl1_txt p{
+  /* text-align: center; */
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*********************** SECTIION 4 *************************/
 .tag{
   border: 1px solid #90c8ea;
   height: 34px;
